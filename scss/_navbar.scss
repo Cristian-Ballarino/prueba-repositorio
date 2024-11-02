@@ -1,0 +1,38 @@
+/*navbar*/
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: #333;*/
+
+   background-image:url(../assets/portada.jpg);
+    
+    color: white;
+    padding: 10px;
+}
+
+
+.navbar a {
+    color:chartreuse;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: aqua;
+    span{color: chartreuse;}
+}
+
+.navbar-toggler-icon{
+    color: aliceblue;
+
+}
+img {
+    width: 100%;
+    height: auto;
+    
+}
